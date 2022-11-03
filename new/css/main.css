@@ -1,0 +1,22 @@
+body {
+	height:100%; } 
+div.content { 
+	overflow: hidden; 
+	position:fixed; 
+	top:0px;
+	bottom:0px; 
+	z-index:-1;}
+	
+div.footer {
+
+	position:fixed;
+	bottom:0px;
+	margin-bottom:35px;
+	background-color: transparent ;
+
+}
+
+#scroll1 {
+	visibility:hidden;
+	display:none;
+}

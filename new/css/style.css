@@ -1,0 +1,392 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, h10, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; 
+  font-family: "Armata-Regular", "Verdana Regular", sans-serif;
+  color:white;
+  font-size:1em;
+  line-height:2em;
+  }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+ /*    --------------             */
+ 
+ 
+ h1 {
+	font-size:10em;
+
+ }
+ 
+
+ body {
+	background-color:#111111;
+	background-image: url('../img/bg.png');
+	background-repeat: repeat-x; 
+}
+ 
+ div.content {
+	background-image: url('../img/main1.png');
+	background-position:center center; 
+	background-repeat: no-repeat;
+	width:100%;
+	height:100vh;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0;
+}
+#Intro1 {
+	background-image: url('../img/sila.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+
+#Zespol1 {
+	background-image: url('../img/zespol.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Zespol2 {
+	background-image: url('../img/idea.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Hydros1 {
+	background-image: url('../img/hydros.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Hydros2 {
+	background-image: url('../img/hydros2.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Hydros3 {
+	background-image: url('../img/hydros3.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Hydros4 {
+	background-image: url('../img/hydros4.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Hydros5 {
+	background-image: url('../img/hydros5.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+
+#Zawody1 {
+	background-image: url('../img/wspolnycel1.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+#Partnerzy1 {
+	background-image: url('../img/onas1.png');
+	background-repeat: no-repeat;
+	background-position:center center; 
+}
+
+ div.top {
+	background-image: url('../img/hydrogreen.png');
+	background-position:center bottom; 
+	background-repeat: no-repeat;
+	width:100%;
+	height:48px;
+	position:fixed;
+	right:0px;
+	left: 0px;
+	top:0px;
+	z-index:+1;
+	
+}
+ div.logo {
+	position:fixed;
+	left:50%;
+	margin-left: -200px;
+	top:0px;
+	height:78px; 
+	width:400px;
+ }
+
+div.social {
+	margin-top:30px;
+	width:176px;
+	height:25px;
+	margin-right:30px;
+	float:right;
+
+}
+#fb{background-image: url('../img/fav_fb.png');	width:25px;height:25px; float:right; margin:0 5px 0 10px; background-position:center center;background-repeat: no-repeat; background-size:20px;}
+#tw{background-image: url('../img/fav_tw.png');	width:25px;height:25px; float:right; margin:0 45px 0 5px; background-position:center center;background-repeat: no-repeat;background-size:20px;}
+div.lang{	padding-top:3px;  font-size:12px; height:25px; float:right; margin:0 0px 0 0px; text-decoration:none;}
+div.lang a{  text-decoration:none; opacity:0.4;}
+
+.navright {
+
+	
+	display: table;
+
+	height:420px;
+	margin-right:30px;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	height:100%;
+
+
+}
+
+
+
+
+.navright ul{
+	display:none;
+	visibility:hidden;
+	vertical-align:middle;
+	display: table-cell;
+	text-align: right;
+ }
+
+ 
+.navright ul li{
+
+	height:43px;
+	vertical-align:middle;
+
+ }
+.navright ul li a{
+ 	/*font-size: 1.083em;*/font-size: 12px;
+	
+	color:#888888;
+	text-decoration:none;
+	float:right;
+	width:180px;
+	margin: 13px 0 13px 0;
+	text-align:right;
+	line-height:1em;
+	
+ }
+ 
+.navright ul li a:hover{
+	color:#bbbbbb;
+	/*font-size: 1.42em;
+	margin: 10px 0 11px 0; */
+}
+.navright ul li a.active{
+ 	font-size: 1.74em;
+		
+	margin: 8px 0 8px 0; 
+	color:white;
+	
+ }
+ 
+ 
+div.footer {
+	/*background-image: url('../img/weare.png');*/
+	background-position:center top; 
+	background-repeat: no-repeat;
+	margin-top:55px;
+	position:static;
+
+	width:100%;
+	height:16px;
+	margin-left:auto;
+	margin-right:auto;	
+	background-color:#111111;
+}
+div.footer p{
+	text-align: center;
+	font-family: "Armata-Regular", "Verdana Regular", sans-serif;
+	font-size:13px;
+	opacity:0.1;
+}
+
+div.burger-t {
+	background-image: url('../img/burger-t.png'); 
+	background-repeat: no-repeat;
+	height:16px;
+	width:53px;
+	float:right;
+}
+
+
+div.burger-b {
+	background-image: url('../img/burger-b.png');
+	background-repeat: no-repeat;
+	height:16px;
+	width:53px;
+	float:right;
+}
+
+
+div.burger {
+	background-image: url('../img/burger.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:40px;
+	height:55px;
+	width:53px;
+	right:0px;
+	position: fixed;
+	top:50%;
+	margin-top:-18px;
+	cursor: pointer;
+	z-index:+2;
+	margin-right:30px;
+
+}
+
+div.main {
+	width:100%;
+	min-height:100vh;
+	background-position:center top;
+	opacity:0;
+	
+}
+div.maincd {
+	width:100%;
+	margin:0 auto 0 auto;
+	height:100vh;
+	overflow:hidden;
+	
+}
+
+.text {
+	padding-top:10vh;
+	margin:0 auto 0 auto;
+	max-width:800px;
+}
+
+#scroll1 {
+	background-image: url('../img/scroll.png');
+	background-size:17px;
+	background-position:center center;
+	background-repeat: no-repeat;
+	height:67px;
+	width:22px;
+	left:50%;
+	margin-left:-11px;
+	position: fixed;
+	bottom:20px;
+	cursor: pointer;
+	z-index:0;
+	
+}
+
+
+@media only screen and (max-width: 1676px) {
+	div.content {background-image: url('../img/main1.png');background-size: 1200px;}
+	div.main {background-size: 1536px;}
+}
+
+@media only screen and (max-width: 1300px) {
+	div.navright {margin-right:0px; }
+	div.burger {margin-right:10px; }
+	div.navright ul {background-color:#111111; padding-right:10px;}
+	div.top { z-index:+1;}
+	div.content {background-image: url('../img/main1.png');background-size: 810px;	}
+	div.top {z-index:0;}
+
+
+}
+	
+@media only screen and (max-width: 800px) {
+	div.content {background-image: url('../img/main1.png');background-size: 500px ;}
+	div.social {
+		margin-top:80px;
+		width:50px;
+		height:176px;
+		margin-left:10px;
+		float:left;
+	}
+	#tw{margin: 0 5px 0 5px;}
+	
+	
+	h1 {font-size:4em;}
+	div.main {	
+		background-position:center top; 
+		background-size: 576px;}
+	div.maincd { padding-top:300px;}
+}
+
+@media only screen and (max-width: 550px) {
+	div.content {background-image: url('../img/main1.png');background-size: 324px ;}
+	div.main {background-size: 384px; background-position:center top; }
+	h1 {font-size:2em;}
+	div.main {	}
+	div.maincd {padding-top:180px;}	 
+	
+
+}
+@media screen and (max-device-width: 800px) and (orientation: landscape) {
+
+}
+
+/*
+@media only screen and (max-width: 1676px) {
+	div.content {background-image: url('../img/main1.png');background-size: 1300px;	margin-top:40vh;}
+	body {background-size: 20vh;}
+}
+
+@media only screen and (max-width: 1300px) {
+	div.navright {margin-right:0px; }
+	div.navright ul {background-color:#111111;}
+	div.top { z-index:+1;}
+	div.content {background-image: url('../img/main1.png');background-size: 810px;margin-top:40vh;	}
+	body {background-size: 20vh; }
+}
+@media only screen and (max-width: 800px) {
+	div.content {background-image: url('../img/main1.png');background-size: 500px ;margin-top:40vh;}
+	div.social { visibility:hidden;}
+	h1 {font-size:4em;}
+	div.main {	padding-top:60px;}
+	body {background-size: 20vh;}
+}
+@media only screen and (max-width: 550px) {
+	div.content {background-image: url('../img/main1.png');background-size: 324px ;margin-top:40vh;}
+	div.social { visibility:hidden;}
+	h1 {font-size:2em;}
+	div.main {	padding-top:60px;}
+	body {background-size: 20vh; }
+}
+@media screen and (max-device-width: 800px) and (orientation: landscape) {
+
+*/
